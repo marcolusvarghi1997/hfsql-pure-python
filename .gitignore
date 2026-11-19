@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Local captures, vendor binaries, and production data are not distributable source.
+work/
+snapshots/
+
+# Database-specific snapshot tooling remains local to the original investigation.
+snapshot.py
+compare_snapshots.py
+test_snapshot.py
+test_compare_snapshots.py

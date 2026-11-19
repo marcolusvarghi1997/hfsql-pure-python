@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hfsql-pure-python"
+version = "0.1.0"
+description = "Experimental read-only HFSQL Client/Server client in pure Python"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "HFSQL Python contributors"}]
+keywords = ["hfsql", "database", "driver"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Database",
+]
+
+[tool.setuptools]
+py-modules = ["hfsql"]
